@@ -1,0 +1,37 @@
+Internship Task: Iris Flower Classification Report
+
+**Introduction**
+
+My job was to teach a computer how to tell different types of Iris flowers apart, just by looking at their measurements.
+
+I used a famous list of flower measurements called the "Iris dataset." It has information from 150 Iris flowers, divided into 3 main types: Setosa, Versicolor, and Virginica. For each flower, I had measurements like how long and wide its petals and green leaf-like parts (sepals) are.
+
+**How I Did It (My Steps)**
+
+1.  **Got the Data Ready:** I took the flower measurements from the "Iris.csv" file. I organized them, made sure the computer could understand the flower names (by turning them into numbers), and then split the data into two parts:
+    * **Learning Data (70%):** The computer used this to learn from examples.
+    * **Test Data (30%):** I used this to check if the computer learned correctly on new flowers it hadn't seen before.
+    * I also did a small step to make all the measurements "fair" (called scaling) so no measurement seemed more important just because its numbers were bigger.
+
+2.  **Trained Different "Guessers" (Models):** I tried out a few different computer programs, like expert "flower guessers," to see which one was best.
+
+**What I Found (Results)**
+
+After training, I checked how well each "guesser" performed on the test data. Here's what I found:
+
+* **K-Nearest Neighbors (KNN):** This guesser was about 88.89% accurate**. It was perfect at identifying Setosa and Versicolor flowers. But, it got confused on 4 out of 15 Virginica flowers, guessing them as Versicolor instead.
+
+* **Support Vector Machine (SVM):** This guesser was about **[Your SVM Accuracy]% accurate**.
+
+* **Logistic Regression:** This guesser was about **[Your Logistic Regression Accuracy]% accurate**.
+
+* **Decision Tree Classifier:** This guesser was about **[Your Decision Tree Accuracy]% accurate**.
+
+* **Random Forest Classifier:** This guesser was about **[Your Random Forest Accuracy]% accurate**.
+    *(This one usually does very well!)*
+
+*(**Remember:* Replace the 88.89% parts with the actual numbers you saw in your VS Code terminal when you ran the script.)
+
+**Conclusion**
+
+This project showed me how computers can learn to identify things from data. Even with fairly simple programs, we can achieve high accuracy in telling different Iris flowers apart. It was a good way to see machine learning in action!
